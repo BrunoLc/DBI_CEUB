@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="79B29A21-A96B-7187-8D44-4A13494E8656" name="Clinica" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BB5E77E5-6268-4833-6E5B-C527B4518B50" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BBEC8857-49B3-6EC7-71F5-F40114776464" name="Paciente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BB5E77E5-6268-4833-6E5B-C527B4518B50" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="7ACD996F-EA98-2EAB-86C7-727C7BF49FCE" name="servicos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BB5E77E5-6268-4833-6E5B-C527B4518B50" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="964F77CA-7C89-BFC6-BBE6-ADD5F0F3F0A3" name="clinicaPaciente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="BB5E77E5-6268-4833-6E5B-C527B4518B50" propertySourceId="79B29A21-A96B-7187-8D44-4A13494E8656" propertyTargetId="BBEC8857-49B3-6EC7-71F5-F40114776464"/>
+   <object objectType="Relation" objectID="D73097FA-6CCA-EDC7-F6D6-64D56499B73C" name="clinicaServicos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="BB5E77E5-6268-4833-6E5B-C527B4518B50" propertySourceId="79B29A21-A96B-7187-8D44-4A13494E8656" propertyTargetId="7ACD996F-EA98-2EAB-86C7-727C7BF49FCE"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

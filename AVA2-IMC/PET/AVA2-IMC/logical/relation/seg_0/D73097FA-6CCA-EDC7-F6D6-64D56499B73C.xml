@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="clinicaServicos" directorySegmentName="seg_0" id="D73097FA-6CCA-EDC7-F6D6-64D56499B73C">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-04 00:19:45 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>79B29A21-A96B-7187-8D44-4A13494E8656</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7ACD996F-EA98-2EAB-86C7-727C7BF49FCE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

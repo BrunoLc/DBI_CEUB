@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBEC8857-49B3-6EC7-71F5-F40114776464" name="Paciente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 22:48:11 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Paciente</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="9EABA9C3-3593-638C-3386-1480E1EDAA66">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 22:49:58 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9FC15A03-9018-A6DD-23DF-35D3716FAD77">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 23:05:08 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="07FD944A-CF0C-2738-8509-08DDB7B434DC">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 22:50:45 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="2468AD04-65B2-23F5-0F9E-CEF9855068E8">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 23:05:31 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="8D1F90C2-1E98-CCC1-0BE9-58C7D78DE2F6">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 22:50:07 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="E6AA463E-B41E-2BC8-160B-6D46794BEC02">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 22:50:37 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registroMedico" id="A91666F9-42E6-01DC-3FDD-B0194541E9C0">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 23:04:53 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="DED2ABBA-CE5A-87BA-CBA1-CAC1646B877A">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 23:28:32 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imc" id="FA16EF9F-07FC-3AA0-B223-A5430CB23B99">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-03 23:32:17 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4876B342-C473-0B9F-B1F2-D1E5543907BD" name="Paciente PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-04-04 00:23:44 UTC</createdTime>
+<ownerDesignName>AVA2-IMC</ownerDesignName>
+<engineerTo>
+<item key="8FB4DDF9-EB8E-4E91-A0AD-E261ED4842CF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FC15A03-9018-A6DD-23DF-35D3716FAD77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
