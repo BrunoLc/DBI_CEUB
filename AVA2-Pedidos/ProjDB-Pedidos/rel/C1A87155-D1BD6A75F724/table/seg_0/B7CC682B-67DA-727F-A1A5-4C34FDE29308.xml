@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7CC682B-67DA-727F-A1A5-4C34FDE29308" name="EmailCliente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>C6704451-4E30-FDA8-FC77-FD033C40B38C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="9E5220E4-907C-3A64-3E29-0D5AECE46CAA">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>58D0FBD0-DA94-337A-C4E1-26664AD2ED9D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailCliente" id="E6AFB4EC-CB5D-5E7F-3141-F04486B60BBF">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>FB63F4F8-164B-5E3C-CEAC-9BB05818AFC7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="BD29CA18-8C3C-24B4-ACA2-BEA91DBCB022">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>AFA81858-474C-87CB-2EAA-9224B040A671</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CB30BA5-03E8-F4FD-0275-F2100258F25A" referredColumn="8DED731F-02FE-B4C6-39E4-D0B87A8BC8D3"/>
+</associations>
+</Column>
+<Column name="Cliente_nomeCliente" id="9F755D7C-7936-E6B2-CEC8-973D7F112980">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>7C584396-1D4B-A0D0-6641-201BC1110E1B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CB30BA5-03E8-F4FD-0275-F2100258F25A" referredColumn="6EF17E7D-64B7-11C4-D8B4-41888018C1B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EF71968-3449-1668-C8FC-8B8C2E5F0AF6" name="EmailCliente_PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>7585C23F-E06D-653A-9508-ED81205878CE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6AFB4EC-CB5D-5E7F-3141-F04486B60BBF"/>
+<colUsage columnID="9E5220E4-907C-3A64-3E29-0D5AECE46CAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75877A55-F2DC-9FD1-2476-8AE4E8738BD9" name="EmailCliente_Cliente_FK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>305AA485-2362-491F-0C09-478FA1D3653D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD29CA18-8C3C-24B4-ACA2-BEA91DBCB022"/>
+<colUsage columnID="9F755D7C-7936-E6B2-CEC8-973D7F112980"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

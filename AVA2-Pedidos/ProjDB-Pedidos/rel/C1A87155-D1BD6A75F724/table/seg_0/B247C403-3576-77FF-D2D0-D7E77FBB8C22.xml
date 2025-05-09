@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B247C403-3576-77FF-D2D0-D7E77FBB8C22" name="TelefonesCliente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>F76A98C4-D613-3D6D-A27F-33D67E199F7A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>TelefonesCliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="01C6FC2F-1741-7E17-0016-43ABD64684D6">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>53A8D89C-9770-11F1-0F12-E0ADA1CCDA13</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="71A70B7C-ED0E-928D-46E5-3DE45D45218C">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>700B9CBD-F5AC-6654-F974-07812C4D5FD3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefone" id="163080BF-5C71-32BB-5F0B-30E4DCFF28E1">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>9D2D1544-981C-4665-9D15-2E4877E7A47A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="AC4C6322-0849-95FA-492B-39EFA7CECE6F">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>5F32CBEE-E435-CFBE-F97D-6DA45333794D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1595DE39-28C0-03D9-5FC2-1C175A55D35E" referredColumn="8DED731F-02FE-B4C6-39E4-D0B87A8BC8D3"/>
+</associations>
+</Column>
+<Column name="Cliente_nomeCliente" id="68C58367-3B63-1050-BAEE-09F8D51F6CC3">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>242F656B-7F3E-B8FE-C761-FA76C760FA83</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1595DE39-28C0-03D9-5FC2-1C175A55D35E" referredColumn="6EF17E7D-64B7-11C4-D8B4-41888018C1B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB86ECD3-125B-B63B-26FA-7F1E4F18985D" name="TelefonesCliente_PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>C2DD0B21-5628-AC27-597D-EE5C7F919018</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71A70B7C-ED0E-928D-46E5-3DE45D45218C"/>
+<colUsage columnID="01C6FC2F-1741-7E17-0016-43ABD64684D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F13F29EF-7D05-A7EB-26DB-679F3C550DFC" name="TelefonesCliente_Cliente_FK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>2186586A-B82F-27A7-536E-E41CC79314DA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC4C6322-0849-95FA-492B-39EFA7CECE6F"/>
+<colUsage columnID="68C58367-3B63-1050-BAEE-09F8D51F6CC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

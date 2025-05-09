@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8CB30BA5-03E8-F4FD-0275-F2100258F25A" containerWithKeyObject="B7CC682B-67DA-727F-A1A5-4C34FDE29308" localFKIndex="75877A55-F2DC-9FD1-2476-8AE4E8738BD9" name="EmailCliente_Cliente_FK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>305AA485-2362-491F-0C09-478FA1D3653D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referredTableLongName>Cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE353196-E76F-ED76-1FF6-C292B22AA118</referredTableID>
+<keyObject>700E8C76-C9E2-E7E1-5A9C-90FF5215DA25</keyObject>
+<referredKeyID>700E8C76-C9E2-E7E1-5A9C-90FF5215DA25</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfCliente,nomeCliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

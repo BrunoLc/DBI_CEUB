@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE353196-E76F-ED76-1FF6-C292B22AA118" name="Cliente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>C56467DF-F49D-1C5A-382F-71ABF79196EF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>Cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="8DED731F-02FE-B4C6-39E4-D0B87A8BC8D3">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>83FD7BFF-BC6D-DC4F-314F-955E486FE778</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="6EF17E7D-64B7-11C4-D8B4-41888018C1B3">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>66B36ADA-445D-2175-2930-371F0DAD9E49</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoCliente_enderecoCliente" id="32B89217-D8C4-5250-5C59-66B174A4A385">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>386EF1BE-E4C6-C599-A798-57AE4C5AE7B7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39C22980-9F3E-2517-C9E7-15351BFA8D56" referredColumn="E13E5CBB-E904-78EB-0E3C-4F8A63F7224B"/>
+</associations>
+</Column>
+<Column name="EnderecoCliente_cpfCliente" id="350D1DE1-A7F3-61A9-6736-601EBFF35665">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>B29C6095-39FF-E1C8-927B-AE42A0D1BCAA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39C22980-9F3E-2517-C9E7-15351BFA8D56" referredColumn="5BEEB266-C514-07EE-8225-EC6712602EA4"/>
+</associations>
+</Column>
+<Column name="Vendedor_matriculaVendedor" id="1DD3C88D-A5DD-381D-DAF0-F0B787401545">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>338D0FD3-3638-41A1-BEE2-578C8A26FA45</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9028B6-D44D-2BC7-78CD-DB39F16553A2" referredColumn="D6B46C23-AC58-EBCE-3A5D-561FDAA26BD6"/>
+</associations>
+</Column>
+<Column name="Vendedor_nomeVendedor" id="A6C118B8-C33F-960B-4A96-C08B00A1FC68">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>27912176-B53B-4D2D-520A-956AB6D16F94</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9028B6-D44D-2BC7-78CD-DB39F16553A2" referredColumn="835E7DE3-72AD-C607-1977-686709C0BCE2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="700E8C76-C9E2-E7E1-5A9C-90FF5215DA25" name="Cliente_PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>CDEA5C73-1723-471E-C769-5137BA03C019</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DED731F-02FE-B4C6-39E4-D0B87A8BC8D3"/>
+<colUsage columnID="6EF17E7D-64B7-11C4-D8B4-41888018C1B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A02111AC-ADAF-82E6-295A-ED9E086B0A1B" name="Cliente__IDX">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>25697846-7304-0622-5028-9855F9C69717</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="32B89217-D8C4-5250-5C59-66B174A4A385"/>
+<colUsage columnID="350D1DE1-A7F3-61A9-6736-601EBFF35665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="021481E6-65BF-330B-C620-CE5F71B19096" name="Cliente_EnderecoCliente_FK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>25697846-7304-0622-5028-9855F9C69717</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32B89217-D8C4-5250-5C59-66B174A4A385"/>
+<colUsage columnID="350D1DE1-A7F3-61A9-6736-601EBFF35665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AB99397-ACA2-937E-CD7C-1EFEA15A1C16" name="Cliente_Vendedor_FK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>820A10B1-2902-415B-DB4F-F78D7D2C5978</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DD3C88D-A5DD-381D-DAF0-F0B787401545"/>
+<colUsage columnID="A6C118B8-C33F-960B-4A96-C08B00A1FC68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

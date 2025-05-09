@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6704451-4E30-FDA8-FC77-FD033C40B38C" name="EmailCliente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:08:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="58D0FBD0-DA94-337A-C4E1-26664AD2ED9D">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:10:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailCliente" id="FB63F4F8-164B-5E3C-CEAC-9BB05818AFC7">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:10:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="AFA81858-474C-87CB-2EAA-9224B040A671">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:15:33 UTC</createdTime>
+<generatorID>305AA485-2362-491F-0C09-478FA1D3653D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>83FD7BFF-BC6D-DC4F-314F-955E486FE778</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="7C584396-1D4B-A0D0-6641-201BC1110E1B">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:15:33 UTC</createdTime>
+<generatorID>305AA485-2362-491F-0C09-478FA1D3653D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>66B36ADA-445D-2175-2930-371F0DAD9E49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7585C23F-E06D-653A-9508-ED81205878CE" name="EmailCliente PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:10:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB63F4F8-164B-5E3C-CEAC-9BB05818AFC7</attributeRef>
+<attributeRef>58D0FBD0-DA94-337A-C4E1-26664AD2ED9D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

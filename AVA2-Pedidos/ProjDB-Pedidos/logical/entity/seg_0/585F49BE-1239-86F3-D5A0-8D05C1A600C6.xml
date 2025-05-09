@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="585F49BE-1239-86F3-D5A0-8D05C1A600C6" name="StatusDoPedido">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:01:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>StatusDoPedido</shortName>
+<synonym>StatusDoPedido</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Processando" id="06E48F96-9EB0-8A4B-7082-5C890AF16820">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:01:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enviando" id="7F874C8C-B89F-2FB5-AB79-A4E182468F54">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:01:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="entregue" id="C79117F2-80B1-FAC7-2FE7-19C4937A7931">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:01:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cancelado" id="2B8D9BFE-19F8-F6D7-7DF1-A1F98D198967">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:02:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroPedido" id="F7326A5B-3FCA-D047-CFCC-F44E016CEB8F">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:22:10 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>B783F984-1178-7212-1B3B-2A30943A8D72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoProduto" id="B8758FF4-60D2-4BA2-9B5D-792DF662032D">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:22:10 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>D28D34CE-FD81-7401-4519-FC8108E25CCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeProduto" id="1C7A0BCF-DE08-0941-8D3B-35F7149EEF06">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:22:10 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>D5747EDF-D50E-549F-ECA6-26D17B5DCF4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoProduto" id="86F8B5DA-4606-7869-351B-4B7A91146997">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:25:32 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>9BDAC1C2-F752-1EDC-777C-90C2DA2A6ACF</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoProduto" id="2A95E946-4A30-BB13-02E4-37C574A69E58">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:25:47 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>149978F5-0720-DC0E-E9C8-E2B5EFFA67E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="50E1C458-9084-3AFA-D266-2954A4FD661C">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:25:49 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>DB67507D-C37F-58B8-A0D6-9DB03079CB28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedidosNumero" id="B568652C-462F-F0CA-F134-AC8089D5D88C">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:25:51 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>CA7928B9-D769-0682-CAFA-D2B6381547C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

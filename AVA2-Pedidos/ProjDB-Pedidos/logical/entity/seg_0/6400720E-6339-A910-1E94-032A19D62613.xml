@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6400720E-6339-A910-1E94-032A19D62613" name="EnderecoCliente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-08 23:55:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EnderecoCliente</shortName>
+<synonym>EnderecoCliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="4CE85C13-EE51-3674-520A-38C485E9F8C1">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:08:16 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoCliente" id="7E48EEC3-73D5-1DF0-B3F7-E27C1F8DF6B0">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-08 23:55:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoCliente" id="38E59D39-1FB4-4DF4-6C47-A284B080E9CA">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-08 23:56:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="8E29B84B-8A5D-9848-E218-AD333108F582">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:16:21 UTC</createdTime>
+<generatorID>25697846-7304-0622-5028-9855F9C69717</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>83FD7BFF-BC6D-DC4F-314F-955E486FE778</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCliente" id="CC9B420A-1759-5E82-5CF5-A21A3B9C307F">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:16:21 UTC</createdTime>
+<generatorID>25697846-7304-0622-5028-9855F9C69717</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<referedAttribute>66B36ADA-445D-2175-2930-371F0DAD9E49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF693C4D-898A-0DA7-3E66-7CF5630B0F79" name="Endereco PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-08 23:56:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="C1A87155-5CC2-EC32-852E-D1BD6A75F724" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E48EEC3-73D5-1DF0-B3F7-E27C1F8DF6B0</attributeRef>
+<attributeRef>4CE85C13-EE51-3674-520A-38C485E9F8C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

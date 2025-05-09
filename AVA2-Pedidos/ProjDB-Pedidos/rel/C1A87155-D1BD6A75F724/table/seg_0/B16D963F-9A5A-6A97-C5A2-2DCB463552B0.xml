@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B16D963F-9A5A-6A97-C5A2-2DCB463552B0" name="StatusDoPedido">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>585F49BE-1239-86F3-D5A0-8D05C1A600C6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>StatusDoPedido</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Processando" id="D97D4F85-A053-8A95-4938-3F2A65F33203">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>06E48F96-9EB0-8A4B-7082-5C890AF16820</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enviando" id="3EC1F9DD-4827-7464-1D17-9447297BCB03">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>7F874C8C-B89F-2FB5-AB79-A4E182468F54</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entregue" id="EDF12817-90B1-5B40-5D74-E8F5326742E8">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>C79117F2-80B1-FAC7-2FE7-19C4937A7931</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cancelado" id="CB1E8893-002E-7811-99C2-B46FFEACAB87">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>2B8D9BFE-19F8-F6D7-7DF1-A1F98D198967</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itensPedido_numeroPedido" id="727BD7C8-0740-B47C-3207-CBF2A17C3C8F">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>F7326A5B-3FCA-D047-CFCC-F44E016CEB8F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A183EE46-01F0-AD81-3B60-85F7A3542AA9" referredColumn="2908DCB9-85FC-4130-8682-962CBF75E138"/>
+</associations>
+</Column>
+<Column name="itensPedido_codigoProduto" id="CDE41EF0-8F7A-0FAB-B8B8-B1A841EC453E">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>B8758FF4-60D2-4BA2-9B5D-792DF662032D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A183EE46-01F0-AD81-3B60-85F7A3542AA9" referredColumn="9F905778-3EB9-5A3A-85DB-3688F1CEBBCB"/>
+</associations>
+</Column>
+<Column name="itensPedido_nomeProduto" id="AE66C3D7-194E-FFCB-4C24-0AEA0AB4CA74">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>1C7A0BCF-DE08-0941-8D3B-35F7149EEF06</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A183EE46-01F0-AD81-3B60-85F7A3542AA9" referredColumn="8B955658-6618-96A1-734E-858ACEED6B27"/>
+</associations>
+</Column>
+<Column name="itensPedido_descricaoProduto" id="AAD8FB65-464F-6387-4A95-16812677EAEB">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>86F8B5DA-4606-7869-351B-4B7A91146997</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A183EE46-01F0-AD81-3B60-85F7A3542AA9" referredColumn="D20746BF-000A-1A00-BD1B-29E77F7E0B98"/>
+</associations>
+</Column>
+<Column name="itensPedido_precoProduto" id="AE4C8BC1-4CD4-F07A-0651-F063DFC442FC">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>2A95E946-4A30-BB13-02E4-37C574A69E58</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A183EE46-01F0-AD81-3B60-85F7A3542AA9" referredColumn="EBF60CDD-6FF7-CB17-F02B-DD05CC780847"/>
+</associations>
+</Column>
+<Column name="itensPedido_quantidadeProduto" id="4A243E83-BE82-FE78-3750-5214E9ED8810">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>50E1C458-9084-3AFA-D266-2954A4FD661C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A183EE46-01F0-AD81-3B60-85F7A3542AA9" referredColumn="BE764760-9909-1823-6FF0-3C6506F829EA"/>
+</associations>
+</Column>
+<Column name="itensPedido_pedidosNumero" id="BC240864-06C1-39DA-A288-8C6F1D6CA920">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>B568652C-462F-F0CA-F134-AC8089D5D88C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A183EE46-01F0-AD81-3B60-85F7A3542AA9" referredColumn="59389BFC-47C8-4E06-077A-3902AF919303"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3EB59A14-6026-31D6-94C7-A859310EAE26" name="StatusDoPedido_itensPedido_FK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="727BD7C8-0740-B47C-3207-CBF2A17C3C8F"/>
+<colUsage columnID="CDE41EF0-8F7A-0FAB-B8B8-B1A841EC453E"/>
+<colUsage columnID="AE66C3D7-194E-FFCB-4C24-0AEA0AB4CA74"/>
+<colUsage columnID="AAD8FB65-464F-6387-4A95-16812677EAEB"/>
+<colUsage columnID="AE4C8BC1-4CD4-F07A-0651-F063DFC442FC"/>
+<colUsage columnID="4A243E83-BE82-FE78-3750-5214E9ED8810"/>
+<colUsage columnID="BC240864-06C1-39DA-A288-8C6F1D6CA920"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

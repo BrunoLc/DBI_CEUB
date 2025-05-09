@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A183EE46-01F0-AD81-3B60-85F7A3542AA9" containerWithKeyObject="B16D963F-9A5A-6A97-C5A2-2DCB463552B0" localFKIndex="3EB59A14-6026-31D6-94C7-A859310EAE26" name="StatusDoPedido_itensPedido_FK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-09 00:26:48 UTC</createdTime>
+<generatorID>97D6A7A0-7E2F-2B43-9654-1D74C6D8EA88</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referredTableLongName>itensPedido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66A8FF91-3441-5A63-98B1-3EA36E585FF6</referredTableID>
+<keyObject>58562C0C-ED79-9CD0-4C13-61022D308825</keyObject>
+<referredKeyID>58562C0C-ED79-9CD0-4C13-61022D308825</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numeroPedido,codigoProduto,nomeProduto,descricaoProduto,precoProduto,quantidadeProduto,pedidosNumero</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
