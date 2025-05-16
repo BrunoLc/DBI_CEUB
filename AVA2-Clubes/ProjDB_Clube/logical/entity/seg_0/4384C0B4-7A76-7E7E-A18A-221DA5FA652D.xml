@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4384C0B4-7A76-7E7E-A18A-221DA5FA652D" name="Dependente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:29:56 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Dependente</shortName>
+<synonym>Dependente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="915CC73F-3088-368C-B706-6A401B56A5B9">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:30:05 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="A7B8F69F-4414-24E9-A5C2-999B2D4AC99F">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:30:20 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimentoDependente" id="0131F5F6-8B57-8D70-86CF-52F40FF0B697">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:30:36 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parentesco" id="295F0681-F24B-7C1A-05F1-24BE1235A3B2">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:35:35 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="23F85137-F8E7-EBC8-28DA-13D64FC1D189">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:31:21 UTC</createdTime>
+<generatorID>39D489DA-DE64-DBB8-992C-1F2F8FC97D92</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>DDCE2793-8CAD-43BB-B3D9-B5376F5A8C22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="BC6F9BA1-27AB-7C72-93C9-F3F72E3B6F1B">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:31:21 UTC</createdTime>
+<generatorID>39D489DA-DE64-DBB8-992C-1F2F8FC97D92</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>1C6C86C5-346B-8BE1-2D8D-D00CD9436402</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="3D2D7060-3AFC-5355-152F-B952F7E65CCE">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-16 00:22:43 UTC</createdTime>
+<generatorID>0FAB98EF-C630-449E-2D42-32D134274F76</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>B9625C39-D278-BD19-C8CA-21E3DD87524B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="159CDE4A-2997-93DB-CEEC-AE49594EE889">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-16 00:22:43 UTC</createdTime>
+<generatorID>0FAB98EF-C630-449E-2D42-32D134274F76</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>0F5B7CC8-81E1-AA51-EAA2-C5B3AB1CE9CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F576890-71A6-DBC5-3E08-9062367A2B35" name="Dependente PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:30:18 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>915CC73F-3088-368C-B706-6A401B56A5B9</attributeRef>
+<attributeRef>A7B8F69F-4414-24E9-A5C2-999B2D4AC99F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

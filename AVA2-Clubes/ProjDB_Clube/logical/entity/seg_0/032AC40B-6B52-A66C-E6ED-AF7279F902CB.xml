@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="032AC40B-6B52-A66C-E6ED-AF7279F902CB" name="enderecoTitular">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:19:07 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>enderecoTitular</shortName>
+<synonym>enderecoTitular</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="B9625C39-D278-BD19-C8CA-21E3DD87524B">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:19:19 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="0F5B7CC8-81E1-AA51-EAA2-C5B3AB1CE9CA">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-16 00:20:41 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lograudoEndereco" id="3EC47747-DB33-4201-7121-C30AF735D569">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:19:31 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEndereco" id="9B266A7F-2C45-9729-65F3-D9DEF2ADF645">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:19:53 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEndereco" id="757CB4B6-B530-333A-1056-05BD8CE19771">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:20:10 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEndereco" id="7765BA03-7159-3089-C4A6-F7A9E5FEBB55">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:20:29 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEndereco" id="B811D3DD-D161-2074-6276-4389CF0BE66D">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:20:51 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="3F693995-665A-5150-4503-C1B41787D2C4">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:39:56 UTC</createdTime>
+<generatorID>78997114-AA5E-9AD9-8EF4-BB2C3A5C6D14</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>DDCE2793-8CAD-43BB-B3D9-B5376F5A8C22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="7F8F9190-BDC3-9473-FC94-A9B27854AF3B">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:39:56 UTC</createdTime>
+<generatorID>78997114-AA5E-9AD9-8EF4-BB2C3A5C6D14</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>1C6C86C5-346B-8BE1-2D8D-D00CD9436402</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="09231171-483F-6801-1609-DB5342A2930B">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-16 00:22:53 UTC</createdTime>
+<generatorID>0FAB98EF-C630-449E-2D42-32D134274F76</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>915CC73F-3088-368C-B706-6A401B56A5B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="FDC22027-280D-9059-0A0A-91557860B181">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-16 00:22:53 UTC</createdTime>
+<generatorID>0FAB98EF-C630-449E-2D42-32D134274F76</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>A7B8F69F-4414-24E9-A5C2-999B2D4AC99F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EA57D7D-2E52-112C-DEC5-9F27B4C48241" name="enderecoTitular PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:19:30 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9625C39-D278-BD19-C8CA-21E3DD87524B</attributeRef>
+<attributeRef>0F5B7CC8-81E1-AA51-EAA2-C5B3AB1CE9CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

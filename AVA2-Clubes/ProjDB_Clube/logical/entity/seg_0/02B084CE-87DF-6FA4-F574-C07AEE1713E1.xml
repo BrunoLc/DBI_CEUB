@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02B084CE-87DF-6FA4-F574-C07AEE1713E1" name="TelefonesDependente">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:32:11 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TelefonesDependente</shortName>
+<synonym>TelefonesDependente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="BDEE6D66-3C78-F6CD-3311-40846D76C7D8">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:32:11 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneDependente" id="970819EF-2087-FA77-3E0C-2D641DF434F9">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:32:11 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente1" id="0819DAD5-24EA-A449-9BCF-5F384EC91E52">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:38:57 UTC</createdTime>
+<generatorID>38C54333-7AF3-F4D9-6BFC-6053AB3796EA</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>915CC73F-3088-368C-B706-6A401B56A5B9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="E5A594A1-C804-306B-0740-F7E62CA92A74">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:38:57 UTC</createdTime>
+<generatorID>38C54333-7AF3-F4D9-6BFC-6053AB3796EA</generatorID>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<referedAttribute>A7B8F69F-4414-24E9-A5C2-999B2D4AC99F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="831353AF-8A3B-6489-E8FB-AA46AF7E0C50" name="TelefonesTitular PK">
+<createdBy>bruno.lyra</createdBy>
+<createdTime>2025-05-15 23:32:11 UTC</createdTime>
+<ownerDesignName>ProjDB_Clube</ownerDesignName>
+<engineerTo>
+<item key="3DBACE7E-24D0-A074-FD11-51BC282C04A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BDEE6D66-3C78-F6CD-3311-40846D76C7D8</attributeRef>
+<attributeRef>970819EF-2087-FA77-3E0C-2D641DF434F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
